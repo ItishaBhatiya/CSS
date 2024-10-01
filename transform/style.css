@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.box{
+	width:500px;
+	height:500px;
+	
+	margin:80px auto;
+	transition:all 0.5s;
+	overflow:hidden;
+	border-radius:25px;
+	filter:grayscale(100);
+	/*filter:blur(10px);*/
+}
+.box:hover{
+	transform:scale(1.1);
+	filter:grayscale(0);
+}
+img{
+	width:100%;
+}
+.box img{
+	height:100%;
+	object-fit:cover;
+}

@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Z-index & overflow</title>
+	<style>
+		h1{
+			text-align:center;
+			font-size:50px;
+			margin-top:30px;
+		}
+		.box{
+			height:200px;
+			width:400px;
+			margin:30px;
+		}
+		.box1{
+			background-color:#793AD5;
+			position:fixed;
+			Z-index:-1;
+		}
+		.box2{
+			background-color:#3A4AD5;
+			position:fixed;
+			left:70px;
+			bottom:480px;
+			Z-index:-2;
+		}
+		.box3{
+			background-color:#3AC5D5;
+			position:fixed;
+			left:140px;
+			bottom:400px;
+			Z-index:-3;
+		}
+		.box4{
+			background-color:#3AD580;
+			position:fixed;
+			left:210px;
+			bottom:300px;
+			Z-index:-4;
+		}
+		.box5{
+			background-color:#D5C93A;
+			position:fixed;
+			left:280px;
+			bottom:200px;
+			Z-index:-5;
+		}
+		.box6{
+			background-color:#D59A3A;
+			position:fixed;
+			left:350px;
+			bottom:100px;
+			Z-index:-6;
+		}
+		.box7{
+			background-color:#D5413A;
+			position:fixed;
+			left:420px;
+			bottom:10px;
+			Z-index:-7;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Z-Index properties in Rainbow</h1>
+	</br>
+	<div class="box1 box"></div>
+	<div class="box2 box"></div>
+	<div class="box3 box"></div>
+	<div class="box4 box"></div>
+	<div class="box5 box"></div>
+	<div class="box6 box"></div>
+	<div class="box7 box"></div>
+	
+</body>
+</html>
